@@ -1,5 +1,5 @@
 # fermiq_docker
-Docker Setup for FermiLib+ProjectQ
+Docker Setup for FermiLib+ProjectQ=FermiQ.
 
 This Docker image will allow users to easily install FermiLib and ProjectQ (version with the fast simulator). Check out Docker's [website](https://www.docker.com/what-container) that describes what a container image is and why it can be so useful. 
 
