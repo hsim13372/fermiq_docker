@@ -23,7 +23,7 @@ docker pull hsim13372/fermiq_docker
 (2) To build the Docker image, move the [Dockerfile](https://github.com/hsim13372/fermiq_docker/blob/master/Dockerfile) to your working directory. Then execute:
 
 ```
-docker build .
+docker build -t "hsim13372/fermiq_docker" .
 ```
 
 Finally, to run the image (assuming you're still inside your working directory), execute:
