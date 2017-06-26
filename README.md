@@ -1,7 +1,7 @@
 # fermiq_docker
 Docker Setup for FermiLib+ProjectQ=FermiQ.
 
-This Docker image will help users to easily install [FermiLib](https://github.com/ProjectQ-Framework/FermiLib.git) and [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) (version with the fast simulator). Check out Docker's [website](https://www.docker.com/what-container) that describes what a container image is and why it can be so useful. 
+This Docker image will help users to easily install [FermiLib](https://github.com/ProjectQ-Framework/FermiLib.git) and [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ). Check out Docker's [website](https://www.docker.com/what-container) that describes what a container image is and why it can be so useful. 
 
 ## What is included?
 - Conda Python 3 (but you can also use Python 2 with one minor change in Dockerfile. See Dockerfile for instructions.)
