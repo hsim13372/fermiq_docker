@@ -7,6 +7,7 @@ USER root
 
 RUN apt install -y g++
 
-RUN pip install git+https://github.com/ProjectQ-Framework/ProjectQ.git
+RUN pip install git+https://github.com/ProjectQ-Framework/ProjectQ.git && \
+    pip install git+https://github.com/ProjectQ-Framework/FermiLib.git
 
-RUN pip install git+https://github.com/ProjectQ-Framework/FermiLib.git
+
