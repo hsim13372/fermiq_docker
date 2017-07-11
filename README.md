@@ -5,8 +5,8 @@ This Docker image will help users to easily install [FermiLib](https://github.co
 
 ## What is included?
 - Conda Python 3 (but you can also use Python 2 with one minor change in Dockerfile. See Dockerfile for instructions.)
-- [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) 
-- [FermiLib](https://github.com/ProjectQ-Framework/FermiLib.git)
+- [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) (git repo) 
+- [FermiLib](https://github.com/ProjectQ-Framework/FermiLib.git) (git repo)
 
 ## Usage
 
@@ -32,4 +32,4 @@ Finally, to run the image (assuming you're still inside your working directory),
 docker run -it -v $(pwd):YOUR_WORK_DIR -w YOUR_WORK_DIR hsim13372/fermiq_docker
 ```
 
-When you're done using the Docker image, you can use `docker stop YOUR_CONTAINER_ID` or `docker kill YOUR_CONTAINER_ID` to stop your container (you can get your container ID by using the command `docker ps`).
+When you're done using the Docker image, you can use `docker stop YOUR_CONTAINER_ID` or `docker kill YOUR_CONTAINER_ID` to stop your container (you can get your container ID by using the command `docker ps`). Finally, feel free to use this as a parent image to build a more customized image layer, perhaps containing the available plugins ([PySCF](https://github.com/ProjectQ-Framework/FermiLib-Plugin-PySCF) or [Psi4](https://github.com/ProjectQ-Framework/FermiLib-Plugin-Psi4)) for FermiLib.
