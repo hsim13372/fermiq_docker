@@ -5,6 +5,7 @@ FROM continuumio/anaconda3
 
 USER root
 
+RUN apt-get update
 RUN apt install -y g++
 
 RUN pip install git+https://github.com/ProjectQ-Framework/ProjectQ.git && \
