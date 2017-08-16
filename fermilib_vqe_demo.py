@@ -12,6 +12,7 @@ from scipy.optimize import minimize
 
 from fermilib.config import *
 from fermilib.utils import *
+from fermilib.circuits import *
 from fermilib.transforms import jordan_wigner
 
 from projectq.ops import X, All, Measure
